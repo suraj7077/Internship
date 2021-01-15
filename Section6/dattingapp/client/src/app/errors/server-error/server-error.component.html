@@ -1,0 +1,14 @@
+<h4>Server error refreshing page will remove error</h4>
+<ng-container *ngIf="error">
+    <h5 class='text-danger'>Error:{{error.message}}</h5>
+    <p class="font-weight-bold">Note :if you see this </p>
+    <p>What to do next?</p>
+    <ol>
+        <li>open chrome dev toos</li>
+        <li>Inspect Netwok tab</li>
+        <li>Check failing request</li>
+        <li>Examine request url</li>
+    </ol>
+    <p>Start your investigation here</p>
+    <code class="mt-5">{{error.details}}</code>
+</ng-container>

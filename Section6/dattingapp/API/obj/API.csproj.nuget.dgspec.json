@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Internship\\demo\\dattingapp\\API\\API.csproj": {}
+    "G:\\Internship(new)\\Section6\\dattingapp\\API\\API.csproj": {}
   },
   "projects": {
-    "G:\\Internship\\demo\\dattingapp\\API\\API.csproj": {
+    "G:\\Internship(new)\\Section6\\dattingapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Internship\\demo\\dattingapp\\API\\API.csproj",
+        "projectUniqueName": "G:\\Internship(new)\\Section6\\dattingapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "G:\\Internship\\demo\\dattingapp\\API\\API.csproj",
+        "projectPath": "G:\\Internship(new)\\Section6\\dattingapp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\suraj\\.nuget\\packages\\",
-        "outputPath": "G:\\Internship\\demo\\dattingapp\\API\\obj\\",
+        "outputPath": "G:\\Internship(new)\\Section6\\dattingapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\suraj\\AppData\\Roaming\\NuGet\\NuGet.Config"

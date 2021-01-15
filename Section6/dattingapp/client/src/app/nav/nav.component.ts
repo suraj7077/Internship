@@ -14,39 +14,30 @@ import { AccountService } from '../_services/account.service';
 export class NavComponent implements OnInit {
 
   model:any={}
-  //currentUser$:Observable<User>;
+  
   
   constructor(public accountService :AccountService,private router:Router,private toastr:ToastrService) { }
 
   ngOnInit(): void { 
-    //this.currentUser$=this.accountService.currentUser$;
+    
   }
 
   login()
   {
     console.log(this.model);
-    //this.router.navigateByUrl('/members');
+    
     this.accountService.login(this.model).subscribe(response=>{console.log(response);
                                           /*this.loggedIn=true;*/},
-                                                     error=>{console.log(error);
-                                                              this.toastr.error(error.error);
+                                                    error=>{console.log(error);
+                                                              this.toastr.error("Unauthorized");
                                                               })
   }
 
   logout()
   {
     this.accountService.logout();
-    //this.router.navigateByUrl('/');
-    //this.loggedIn=false;
+    
   }
 
- /* getCurrentUser()
-  {
-    this.accountService.currentUser$.subscribe(user => {
-      //this.loggedIn=!! user;
-    },error =>{
-      console.log(error);
-     
-    })
-  }*/
+ 
 }

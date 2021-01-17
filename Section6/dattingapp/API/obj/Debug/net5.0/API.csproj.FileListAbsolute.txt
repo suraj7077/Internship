@@ -250,3 +250,6 @@ G:\Internship(new)\Section6\dattingapp\API\obj\Debug\net5.0\API.dll
 G:\Internship(new)\Section6\dattingapp\API\obj\Debug\net5.0\ref\API.dll
 G:\Internship(new)\Section6\dattingapp\API\obj\Debug\net5.0\API.pdb
 G:\Internship(new)\Section6\dattingapp\API\obj\Debug\net5.0\API.genruntimeconfig.cache
+G:\Internship(new)\Section6\dattingapp\API\bin\Debug\net5.0\data\UserSeedData.json
+G:\Internship(new)\Section6\dattingapp\API\bin\Debug\net5.0\AutoMapper.dll
+G:\Internship(new)\Section6\dattingapp\API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

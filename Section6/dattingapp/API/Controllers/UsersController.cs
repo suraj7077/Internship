@@ -12,7 +12,7 @@ using Section6.dattingapp.API.DTOs;
 
 namespace API.Controllers
 {
-    [Authorize]
+    //[Authorize]//section9 imp keep in mind
     public class UsersController : BaseApiController
     {
         private readonly IMapper _mapper;

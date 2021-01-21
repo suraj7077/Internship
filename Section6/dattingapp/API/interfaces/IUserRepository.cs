@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using API.Entities;
 using Section6.dattingapp.API.DTOs;
+using Section6.dattingapp.API.Helpers;
 
 namespace API.interfaces
 {
@@ -16,7 +17,7 @@ namespace API.interfaces
 
         Task<AppUser> GetUserByUsernameAsync(string username);
 
-        Task<IEnumerable<MemberDto>> GetMembersAsync();
+        Task<PagedList<MemberDto>> GetMembersAsync(UserParams userParams);
 
         Task<MemberDto> GetMemberAsync(string username);
 
